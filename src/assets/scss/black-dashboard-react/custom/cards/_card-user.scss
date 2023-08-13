@@ -50,9 +50,9 @@
     }
 
     .avatar {
-      width: 124px;
-      height: 124px;
-      border: 5px solid lighten($black,5%);
+      width: 350px;
+      height: 250px;
+      border: 5px solid $card-black-background;
       border-bottom-color: $transparent-bg;
       background-color: $transparent-bg;
       position: relative;
@@ -73,5 +73,6 @@
 
     .card-description {
       margin-top: 30px;
+      text-align: center;
     }
 }
